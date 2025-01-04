@@ -1,0 +1,44 @@
+{% load static %}
+<hr>
+<div class="row">
+    <div class="image-center col-lg-4">
+        <h5>CABINET JURIDIQUE DE CONSULTATION, CONSEIL ET ASSISTANCE JURIDIQUE</h5>
+        <img src="{% static 'images/smart_low_firm_logo.png' %}" alt="">
+        <h5>BRANCHES D'INTERVENTION</h5>
+        <hr>
+        {% for title in titles  %}
+        <h6 class="text-center text-white"> {{title.name }} </h6>
+        <hr>
+        {% endfor %}
+    </div>
+    <div class="col-lg-4">
+        <h5>NOS ADRESSES</h5>
+        <hr>
+        <h6 class="text-white">145-C, Avenue Usoke (Croisement Huilerie), Quartier Ngbaka, Commune de Kinshasa, Ville Province de Kinshasa République Démocratique du Congo (RDC)</h6>
+        <hr>
+        <h5>NOS CONTACTS</h5>
+        <hr>
+        <h6 class="text-white text-center">Tel : + (243) 85 624 81 81 <br> Tel : + (243) 82 059 53 52</h6>
+        <hr>
+        <h6 class="text-white text-center">smartlawfirm1@gmail.com</h6>
+        <h6 class="text-white text-center">Version. S-L-F-0.1</h6>
+        <hr>
+    </div>
+    <div class="col-lg-4">
+        <h5>A PROPOS DE SANGA NI NGASA</h5>
+        <hr>
+        <p class="text-white">Sanga-ni-ngasa est une boite régroupant des ingénieurs en informatiques, télécommunications et de programmeurs freelances avec des connaissances et des compétences dans le domaine de nouvelles technologies et de  l'information (Informatique) et de communications (Télécommunications). Nous mettons  nos services à la disposition de vos institutions pour faciliter votre intégration dans le monde numérique</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="mailto:example@example.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <hr>
+        <h6 class="text-white text-center">Tel : + (243) 85 009 65 25 <br> Tel : + (243) 82 748 35 38 [WhatsApp]</h6>
+        <h6 class="text-white text-center">tegratshibanda20@gmail.com</h6>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <p class="text-center texte text-white">Developpé par @sanga-ni-ngasa, Tout droits réservés !</p>
+</div>
